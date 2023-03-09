@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Prompt', sans-serif;
+    box-sizing: border-box;
+}
+body {
+    background: black;
+    color: white;
+
+}
+.head {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(image/a5.jpg);
+    width: 1900px;
+    height: 700px;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.logo {
+    width: 150px;
+    cursor: pointer;
+}
+nav button{
+    border: 0px;
+    outline: 0px;
+    background: red;
+    color: white;
+    padding: 10px 20px;
+    font-size: 12px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+
+}
+.language-btn {
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    border:1px solid white;
+    
+}
+language-btn img{
+    width: 10px;
+    margin-left: 10px;
+}
+.head-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    margin-top: 100px;
+}
+.head-content h1{
+    margin: auto;
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 700;
+    max-width: 800px;
+}
+.head-content h3  {
+    font-weight: 400;
+    margin-bottom: 40px;
+
+}
+.email{
+    width: 1000px;
+    margin: auto;
+
+}
+.email input {
+    height: 60px;
+    width: 450px;
+    margin: auto;
+    font-size: 20px;
+    outline: none;
+}
+.email button {
+    margin: auto;
+    height: 60px;
+    width: 180px;
+    align-items: center;
+    justify-self: auto;
+    font-size: 20px;
+    padding: 7px 17px;
+    background: red;
+    cursor: pointer;
+    outline: none;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border: none;
+    margin-left: -6px;
+    text-decoration: none;
+    color: white;
+}
+.btn {
+    text-decoration: none;
+    color: white;
+}
+.features{
+    padding: 50px 12px;
+    font-size: 22px;
+
+}
+.row{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: 50px 0;
+    padding: 100px;
+}
+.text-col{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+
+}
+.img-col{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+.img-col img {
+    display: block;
+    width: 90%;
+    margin: auto;
+
+}
+.features h2 {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.line {
+    background: rgba(252, 0, 0, 0.7);
+    width: 100%;
+    height: 10px;
+
+}
